@@ -4,4 +4,4 @@
     'depends': ['base'],
     'data': [],
     'installable': True,
-}
+}  # type: ignore
