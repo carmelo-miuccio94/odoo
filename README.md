@@ -1,5 +1,20 @@
 # Odoo
 
+# Managing custom Odoo Service
+
+sudo systemctl daemon-reexec      # reload systemd manager itself
+sudo systemctl daemon-reload      # reload service files
+sudo systemctl enable odoo        # enable at boot
+sudo systemctl start odoo         # start service
+sudo systemctl status odoo        # check logs/status
+
+Odoo starts with the unit service inside /etc/systemd/system/odoo.service
+
+To see how it's written : cat /etc/systemd/system/odoo.service
+
+If any change has been done to odoo.service then redo the first daemon commands and re-enable the service
+============================
+
 [![Build Status](https://runbot.odoo.com/runbot/badge/flat/1/master.svg)](https://runbot.odoo.com/runbot)
 [![Tech Doc](https://img.shields.io/badge/master-docs-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.odoo.com/documentation/master)
 [![Help](https://img.shields.io/badge/master-help-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.odoo.com/forum/help-1)

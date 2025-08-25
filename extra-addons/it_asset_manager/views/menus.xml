@@ -1,0 +1,6 @@
+<odoo>
+    <menuitem id="menu_it_asset_root" name="IT Asset Manager" />
+    <menuitem id="menu_it_asset" name="Assets" parent="menu_it_asset_root" />
+    <menuitem id="menu_it_assignment" name="Assignments" parent="menu_it_asset_root" />
+    <menuitem id="menu_it_accessory" name="Accessories" parent="menu_it_asset_root" />
+</odoo>

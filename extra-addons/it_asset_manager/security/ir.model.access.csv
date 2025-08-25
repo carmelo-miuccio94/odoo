@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_it_asset,it.asset,model_it_asset,,1,1,1,1
+access_it_asset_assignment,it.asset.assignment,model_it_asset_assignment,,1,1,1,1
+access_it_asset_accessory,it.asset.accessory,model_it_asset_accessory,,1,1,1,1

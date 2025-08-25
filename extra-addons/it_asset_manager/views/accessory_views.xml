@@ -1,0 +1,29 @@
+<odoo>
+    <record id="view_it_accessory_tree" model="ir.ui.view">
+        <field name="name">it.asset.accessory.tree</field>
+        <field name="model">it.asset.accessory</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="type" />
+                <field name="asset_id" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_it_accessory_form" model="ir.ui.view">
+        <field name="name">it.asset.accessory.form</field>
+        <field name="model">it.asset.accessory</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="type" />
+                        <field name="asset_id" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
